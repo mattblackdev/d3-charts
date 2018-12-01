@@ -1,0 +1,22 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "d3": "5.0.0",
+    "d3-tip": "0.8.0-alpha.1",
+    "moment": "2.22.0",
+    "trend": "0.3.0"
+  },
+  "devDependencies": {
+    "@types/d3": "5.0.0",
+    "@types/d3-tip": "3.5.5",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
