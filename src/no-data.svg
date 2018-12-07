@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="197px" viewBox="0 0 197 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="NO-REPAIRS" font-family="Roboto-Black, Roboto" font-size="20" font-weight="700" fill="#0D83DD">
+            <tspan x="41.34375" y="107">NO REPAIRS</tspan>
+        </text>
+        <path d="M98.5,0 C44.325,0 0,44.325 0,98.5 C0,152.675 44.325,197 98.5,197 C152.675,197 197,152.675 197,98.5 C197,44.325 152.675,0 98.5,0 L98.5,0 Z M19.7,98.5 C19.7,55.16 55.16,19.7 98.5,19.7 C116.23,19.7 132.975,25.61 146.765,36.445 L36.445,146.765 C25.61,132.975 19.7,116.23 19.7,98.5 L19.7,98.5 Z M98.5,177.3 C80.77,177.3 64.025,171.39 50.235,160.555 L160.555,50.235 C171.39,64.025 177.3,80.77 177.3,98.5 C177.3,141.84 141.84,177.3 98.5,177.3 L98.5,177.3 Z" id="Shape" fill-opacity="0.179999992" fill="#000000"></path>
+    </g>
+</svg>

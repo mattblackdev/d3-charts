@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "d3": "5.0.0",
-    "d3-tip": "0.8.0-alpha.1",
     "moment": "2.22.0",
     "trend": "0.3.0"
   },

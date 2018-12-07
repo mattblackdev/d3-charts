@@ -1,0 +1,30 @@
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.3;
+}
+
+.grid .domain {
+  stroke: none;
+  stroke-width: 0;
+  fill: none;
+}
+
+.x-axis .domain {
+  stroke: lightgrey;
+  stroke-width: 2px;
+}
+
+.y-axis .domain {
+  stroke: lightgrey;
+  stroke-width: 2px;
+}
+
+#sparks {
+  display: flex;
+  flex-direction: column;
+}
+
+.sparkline {
+  border: 1px solid #eee;
+  margin: 5px 8px;
+}

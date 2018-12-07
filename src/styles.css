@@ -1,31 +1,7 @@
+html,
 body {
+  height: 100%;
   margin: 0;
-  font-family: 'Roboto';
-}
-
-text {
-  font-family: 'Roboto';
-}
-
-.grid line {
-  stroke: lightgrey;
-  stroke-opacity: 0.3;
-}
-
-.grid .domain {
-  stroke: none;
-  stroke-width: 0;
-  fill: none;
-}
-
-.x-axis .domain {
-  stroke: lightgrey;
-  stroke-width: 2px;
-}
-
-.y-axis .domain {
-  stroke: lightgrey;
-  stroke-width: 2px;
 }
 
 div.tooltip {
@@ -43,20 +19,8 @@ div.tooltip {
   white-space: nowrap;
 }
 
-.piechart-wedge-label {
-  /* fill: white; */
+.rac-piechart-wedge-label {
   font-size: 13px;
   font-weight: 500;
   fill-opacity: 0.9;
-  user-select: none;
-}
-
-#sparks {
-  display: flex;
-  flex-direction: column;
-}
-
-.sparkline {
-  border: 1px solid #eee;
-  margin: 5px 8px;
 }
