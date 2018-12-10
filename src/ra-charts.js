@@ -7,7 +7,7 @@
  * Changes:
  *
  */
-import * as d3 from 'd3';
+// import * as d3 from 'd3';
 
 /**
  * Make a chart responsive to it's parent container size
@@ -50,7 +50,7 @@ export function tipify() {
   const tooltipEl = d3
     .select('body')
     .append('div')
-    .attr('class', 'tooltip')
+    .attr('class', 'rac-tooltip')
     .attr('pointer-events', 'none')
     .style('opacity', 0);
 

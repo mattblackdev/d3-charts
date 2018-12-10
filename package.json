@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build src/ra-charts.js --out-dir dist --global raCharts"
   },
   "dependencies": {
     "d3": "5.0.0",

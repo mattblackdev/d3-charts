@@ -6,13 +6,32 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
       rel="stylesheet"
     />
+    <script src="dist/ra-charts.js"></script>
   </head>
 
   <body>
     <button id="piechart-change-random">Random</button>
     <button id="piechart-change-no-data">No Data</button>
     <div id="piechart" style="max-width: 600px; margin: 0 auto;"></div>
-    <script src="src/ra-charts.js"></script>
-    <script src="src/demo.js"></script>
+    <!--
+      <script src="src/ra-charts.js"></script>
+      <script src="src/demo.js"></script>
+    -->
+    <script>
+      raCharts.initializePieChart(
+        '#piechart',
+        [
+          { label: 'Unscheduled', count: 112, color: 'rgb(26,132,217)' },
+          { label: 'Scheduled', count: 56, color: 'rgb(103,174,35)' },
+          { label: 'Missed', count: 20, color: 'rgb(253,148,54)' },
+          { label: 'Re-Checks', count: 10, color: 'rgb(153,153,153)' }
+        ],
+        {
+          legendTitle: 'Completion',
+          responsive: true
+          // noDataImageUrl: noDataSvg
+        }
+      );
+    </script>
   </body>
 </html>
